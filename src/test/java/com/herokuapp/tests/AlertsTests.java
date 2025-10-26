@@ -20,7 +20,7 @@ public class AlertsTests extends TestBase{
 
    @Test
     public void positiveAlertConfirmTest(){
-        new AlertsPage(driver).selectResult("Cancel").verifyResult("Cancel");
+        new AlertsPage(driver).selectResult("OK").verifyResult("OK");
    }
 
    @Test
